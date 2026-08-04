@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  dazn:
+    build: .
+    image: dazn-mini_cs:latest
+    container_name: dazn-mini_cs
+    ports:
+      - "18001:18001"
+    restart: unless-stopped
+    volumes:
+      - dazn_data:/home
+volumes:
+  dazn_data:
