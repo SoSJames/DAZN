@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:18.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 WORKDIR /app
@@ -27,7 +27,7 @@ RUN if [ -d /home/mini_cs/scripts ]; then \
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
 # Enable Apache modules needed for PHP
-RUN a2enmod rewrite && a2enmod php8.1 2>/dev/null || true
+RUN a2enmod rewrite && a2enmod php7.2 2>/dev/null || true
 
 # Copy entrypoint which runs setup/start on container start
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
