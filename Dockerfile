@@ -10,7 +10,7 @@ COPY mini_cs.zip /app/mini_cs.zip
 RUN apt-get update && apt-get install -y \
     unzip apache2 libapache2-mod-php php php-mbstring php-xml php-curl php-zip \
     libxslt1-dev nscd libonig-dev libzip-dev aria2 libcurl4-openssl-dev libcurl3 \
-    wget curl ca-certificates procps supervisor \
+    wget curl ca-certificates procps supervisor software-properties-common \
   && rm -rf /var/lib/apt/lists/*
 
 # Unpack the archive to /home (matches README instructions)
@@ -22,6 +22,12 @@ RUN if [ -f /app/mini_cs.zip ]; then \
 RUN if [ -d /home/mini_cs/scripts ]; then \
       chmod -R 755 /home/mini_cs/scripts || true; \
     fi
+
+# Configure Apache to suppress ServerName warning
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+
+# Enable Apache modules needed for PHP
+RUN a2enmod rewrite && a2enmod php8.1 2>/dev/null || true
 
 # Copy entrypoint which runs setup/start on container start
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
