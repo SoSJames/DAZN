@@ -63,7 +63,7 @@ while [[ $# -gt 0 ]]; do
     -i|-s|--login|--shell)
       shift    # Skip flag only
       ;;
-    -* )
+    -*)
       shift    # Skip other flags
       ;;
     *)
@@ -75,6 +75,44 @@ done
 SUDO_WRAPPER
   chmod +x /usr/local/bin/sudo
 fi
+
+# Fix php-fpm pool configs missing user/group to avoid FPM initialization failure
+# Some bundled mini_cs pool files omit the required "user ="/"group =" directives which causes
+# php-fpm to refuse to start with: "[pool mini_cs] user has not been defined".
+# Try a few common locations and patch the pool to run as www-data (the system web user).
+for POOL in "/etc/php/7.2/fpm/pool.d/mini_cs.conf" \
+             "/etc/php/7.2/fpm/pool.d/mini_cs.ini" \
+             "/home/mini_cs/php/etc/php-fpm.d/mini_cs.conf" \
+             "/home/mini_cs/php/etc/php-fpm.d/mini_cs.ini"; do
+  if [ -f "$POOL" ]; then
+    echo "Ensuring php-fpm pool defines user/group in $POOL"
+    # If file has a [mini_cs] section, insert after it; otherwise just ensure user/group lines exist
+    if grep -q '^\[mini_cs\]' "$POOL" 2>/dev/null; then
+      if grep -q '^user\s*=' "$POOL" 2>/dev/null; then
+        sed -i 's/^user\s*=.*/user = www-data/' "$POOL" || true
+      else
+        sed -i '/^\[mini_cs\]/a user = www-data' "$POOL" || true
+      fi
+      if grep -q '^group\s*=' "$POOL" 2>/dev/null; then
+        sed -i 's/^group\s*=.*/group = www-data/' "$POOL" || true
+      else
+        sed -i '/^\[mini_cs\]/a group = www-data' "$POOL" || true
+      fi
+    else
+      # Add or replace any global user/group directives
+      if grep -q '^user\s*=' "$POOL" 2>/dev/null; then
+        sed -i 's/^user\s*=.*/user = www-data/' "$POOL" || true
+      else
+        printf '\nuser = www-data\n' >> "$POOL" || true
+      fi
+      if grep -q '^group\s*=' "$POOL" 2>/dev/null; then
+        sed -i 's/^group\s*=.*/group = www-data/' "$POOL" || true
+      else
+        printf 'group = www-data\n' >> "$POOL" || true
+      fi
+    fi
+  fi
+done
 
 # Run the included setup script if present
 if [ -x /home/mini_cs/scripts/setup.sh ]; then
