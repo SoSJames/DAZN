@@ -77,42 +77,80 @@ SUDO_WRAPPER
 fi
 
 # Fix php-fpm pool configs missing user/group to avoid FPM initialization failure
-# Some bundled mini_cs pool files omit the required "user ="/"group =" directives which causes
-# php-fpm to refuse to start with: "[pool mini_cs] user has not been defined".
-# Try a few common locations and patch the pool to run as www-data (the system web user).
-for POOL in "/etc/php/7.2/fpm/pool.d/mini_cs.conf" \
-             "/etc/php/7.2/fpm/pool.d/mini_cs.ini" \
-             "/home/mini_cs/php/etc/php-fpm.d/mini_cs.conf" \
-             "/home/mini_cs/php/etc/php-fpm.d/mini_cs.ini"; do
+echo "Searching for and fixing php-fpm pool configuration files..."
+
+# Find all pool config files in common locations
+POOL_FILES=()
+if [ -d /etc/php/7.2/fpm/pool.d ]; then
+  for f in /etc/php/7.2/fpm/pool.d/*.conf /etc/php/7.2/fpm/pool.d/*.ini; do
+    [ -f "$f" ] && POOL_FILES+=("$f")
+  done
+fi
+if [ -d /home/mini_cs/php/etc/php-fpm.d ]; then
+  for f in /home/mini_cs/php/etc/php-fpm.d/*.conf /home/mini_cs/php/etc/php-fpm.d/*.ini; do
+    [ -f "$f" ] && POOL_FILES+=("$f")
+  done
+fi
+
+# Also check for php-fpm.conf which might contain pool definitions
+if [ -f /etc/php/7.2/fpm/php-fpm.conf ]; then
+  POOL_FILES+=(/etc/php/7.2/fpm/php-fpm.conf)
+fi
+if [ -f /home/mini_cs/php/etc/php-fpm.conf ]; then
+  POOL_FILES+=(/home/mini_cs/php/etc/php-fpm.conf)
+fi
+
+# Process all found pool files
+for POOL in "${POOL_FILES[@]}"; do
   if [ -f "$POOL" ]; then
-    echo "Ensuring php-fpm pool defines user/group in $POOL"
-    # If file has a [mini_cs] section, insert after it; otherwise just ensure user/group lines exist
-    if grep -q '^\[mini_cs\]' "$POOL" 2>/dev/null; then
-      if grep -q '^user\s*=' "$POOL" 2>/dev/null; then
-        sed -i 's/^user\s*=.*/user = www-data/' "$POOL" || true
+    echo "Processing pool config: $POOL"
+    
+    # Check if this file contains a pool section (look for [poolname])
+    if grep -q '^\[' "$POOL" 2>/dev/null; then
+      
+      # If file has [mini_cs] section, target that specifically
+      if grep -q '^\[mini_cs\]' "$POOL" 2>/dev/null; then
+        echo "  Found [mini_cs] section in $POOL"
+        
+        # Check if user is defined within mini_cs section (between [mini_cs] and next [)
+        if ! sed -n '/^\[mini_cs\]/,/^\[/p' "$POOL" 2>/dev/null | grep -q '^user\s*=' 2>/dev/null; then
+          # Add user = www-data right after [mini_cs]
+          sed -i '/^\[mini_cs\]/a user = www-data' "$POOL" || true
+          echo "  Added user = www-data"
+        else
+          # Update existing user line - only within mini_cs section
+          sed -i '/^\[mini_cs\]/,/^\[/{/^user\s*=/s/=.*/= www-data/;}' "$POOL" || true
+          echo "  Updated user = www-data"
+        fi
+        
+        # Check if group is defined within mini_cs section
+        if ! sed -n '/^\[mini_cs\]/,/^\[/p' "$POOL" 2>/dev/null | grep -q '^group\s*=' 2>/dev/null; then
+          # Add group = www-data right after [mini_cs]
+          sed -i '/^\[mini_cs\]/a group = www-data' "$POOL" || true
+          echo "  Added group = www-data"
+        else
+          # Update existing group line - only within mini_cs section
+          sed -i '/^\[mini_cs\]/,/^\[/{/^group\s*=/s/=.*/= www-data/;}' "$POOL" || true
+          echo "  Updated group = www-data"
+        fi
       else
-        sed -i '/^\[mini_cs\]/a user = www-data' "$POOL" || true
-      fi
-      if grep -q '^group\s*=' "$POOL" 2>/dev/null; then
-        sed -i 's/^group\s*=.*/group = www-data/' "$POOL" || true
-      else
-        sed -i '/^\[mini_cs\]/a group = www-data' "$POOL" || true
-      fi
-    else
-      # Add or replace any global user/group directives
-      if grep -q '^user\s*=' "$POOL" 2>/dev/null; then
-        sed -i 's/^user\s*=.*/user = www-data/' "$POOL" || true
-      else
-        printf '\nuser = www-data\n' >> "$POOL" || true
-      fi
-      if grep -q '^group\s*=' "$POOL" 2>/dev/null; then
-        sed -i 's/^group\s*=.*/group = www-data/' "$POOL" || true
-      else
-        printf 'group = www-data\n' >> "$POOL" || true
+        # For configs without explicit [mini_cs] section, check/add at top level
+        echo "  No [mini_cs] section found, checking global directives"
+        
+        if ! grep -q '^user\s*=' "$POOL" 2>/dev/null; then
+          echo "user = www-data" >> "$POOL" || true
+          echo "  Added user = www-data"
+        fi
+        if ! grep -q '^group\s*=' "$POOL" 2>/dev/null; then
+          echo "group = www-data" >> "$POOL" || true
+          echo "  Added group = www-data"
+        fi
       fi
     fi
   fi
 done
+
+echo "PHP-FPM pool configuration update complete"
 
 # Run the included setup script if present
 if [ -x /home/mini_cs/scripts/setup.sh ]; then
