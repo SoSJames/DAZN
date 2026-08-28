@@ -7,12 +7,14 @@ WORKDIR /app
 COPY mini_cs.zip /app/mini_cs.zip
 
 # Install runtime and build dependencies referenced in the README
-RUN apt-get update && apt-get install -y \
-    unzip apache2 libapache2-mod-php php php-mbstring php-xml php-curl php-zip \
-    libxslt1-dev nscd libonig-dev libzip-dev aria2 libcurl4-openssl-dev \
-    libcurl3 libcurl-openssl1.0-dev \
-    wget curl ca-certificates procps supervisor software-properties-common \
-  && rm -rf /var/lib/apt/lists/*
+RUN apt-get update
+&& apt-get install -y --no-install-recommends software-properties-common ca-certificates wget
+&& add-apt-repository universe || true
+&& apt-get update
+&& apt-get install -y --no-install-recommends
+unzip apache2 libapache2-mod-php php7.2 php7.2-mbstring php7.2-xml php7.2-curl php7.2-zip
+libxslt1-dev nscd libonig-dev libzip-dev aria2 curl wget ca-certificates procps supervisor
+&& rm -rf /var/lib/apt/lists/*
 
 # Unpack the archive to /home (matches README instructions)
 RUN if [ -f /app/mini_cs.zip ]; then \
