@@ -24,6 +24,20 @@ if command -v nscd >/dev/null 2>&1; then
   service nscd start || true
 fi
 
+# Create a wrapper for sudo since we're running as root in container
+# This allows scripts that call 'sudo' to work without errors
+if ! command -v sudo >/dev/null 2>&1; then
+  echo "Creating sudo wrapper (container is running as root)"
+  mkdir -p /usr/local/bin
+  cat > /usr/local/bin/sudo << 'SUDO_WRAPPER'
+#!/bin/bash
+# In a container running as root, sudo is unnecessary
+# Just execute the command directly, skipping the sudo prefix if present
+exec "$@"
+SUDO_WRAPPER
+  chmod +x /usr/local/bin/sudo
+fi
+
 # Run the included setup script if present
 if [ -x /home/mini_cs/scripts/setup.sh ]; then
   echo "Running setup.sh"
@@ -43,6 +57,10 @@ elif [ -f /home/mini_cs/scripts/start_clean.sh ]; then
   chmod +x /home/mini_cs/scripts/start_clean.sh
   /home/mini_cs/scripts/start_clean.sh || echo "start_clean.sh exited with non-zero status"
 fi
+
+# Ensure /home permissions are correct for web server
+echo "Finalizing permissions for web root"
+chmod -R 755 /home || true
 
 # Fallback: ensure Apache runs in foreground so container stays alive
 echo "Starting Apache in foreground"
