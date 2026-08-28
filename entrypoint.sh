@@ -32,8 +32,26 @@ if ! command -v sudo >/dev/null 2>&1; then
   cat > /usr/local/bin/sudo << 'SUDO_WRAPPER'
 #!/bin/bash
 # In a container running as root, sudo is unnecessary
-# Just execute the command directly, skipping the sudo prefix if present
-exec "$@"
+# Strip sudo flags (-u, -i, etc.) and execute the actual command
+
+# Remove common sudo flags: -u user, -i, -s, etc.
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -u)
+      shift 2  # Skip -u and the username
+      ;;
+    -i|-s|--login|--shell)
+      shift    # Skip flag only
+      ;;
+    -*)
+      shift    # Skip other flags
+      ;;
+    *)
+      # Found the actual command; execute it with all remaining args
+      exec "$@"
+      ;;
+  esac
+done
 SUDO_WRAPPER
   chmod +x /usr/local/bin/sudo
 fi
