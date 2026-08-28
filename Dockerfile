@@ -10,6 +10,7 @@ COPY mini_cs.zip /app/mini_cs.zip
 RUN apt-get update && apt-get install -y \
     unzip apache2 libapache2-mod-php php php-mbstring php-xml php-curl php-zip \
     libxslt1-dev nscd libonig-dev libzip-dev aria2 libcurl4-openssl-dev \
+    libcurl3 libcurl-openssl1.0-dev \
     wget curl ca-certificates procps supervisor software-properties-common \
   && rm -rf /var/lib/apt/lists/*
 
@@ -17,6 +18,9 @@ RUN apt-get update && apt-get install -y \
 RUN if [ -f /app/mini_cs.zip ]; then \
       unzip /app/mini_cs.zip -d /home || true; \
     fi
+
+# Create config directory and persistence.db ahead of time to avoid rm errors
+RUN mkdir -p /home/mini_cs/config && touch /home/mini_cs/config/persistence.db || true
 
 # Ensure scripts are executable
 RUN if [ -d /home/mini_cs/scripts ]; then \
