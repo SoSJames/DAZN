@@ -9,7 +9,7 @@ COPY mini_cs.zip /app/mini_cs.zip
 # Install runtime and build dependencies referenced in the README
 RUN apt-get update && apt-get install -y \
     unzip apache2 libapache2-mod-php php php-mbstring php-xml php-curl php-zip \
-    libxslt1-dev nscd libonig-dev libzip-dev aria2 libcurl4-openssl-dev libcurl3 \
+    libxslt1-dev nscd libonig-dev libzip-dev aria2 libcurl4-openssl-dev \
     wget curl ca-certificates procps supervisor software-properties-common \
   && rm -rf /var/lib/apt/lists/*
 
