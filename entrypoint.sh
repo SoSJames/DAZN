@@ -12,6 +12,26 @@ echo "Ensuring /home exists and permissions"
 mkdir -p /home
 chown -R root:root /home || true
 
+# Ensure the mini_cs config directory and persistence DB exist (guard against host mounts)
+mkdir -p /home/mini_cs/config
+if [ ! -f /home/mini_cs/config/persistence.db ]; then
+  echo "Initializing /home/mini_cs/config/persistence.db"
+  touch /home/mini_cs/config/persistence.db || true
+fi
+chown -R root:root /home/mini_cs/config || true
+chmod 644 /home/mini_cs/config/persistence.db || true
+
+# If the distro php-fpm is available, create a small wrapper so scripts that call the bundled
+# /home/mini_cs/php/sbin/php-fpm will instead invoke the system php-fpm (avoids CURL_OPENSSL_3 ABI mismatch)
+if [ -x /usr/sbin/php-fpm7.2 ]; then
+  mkdir -p /home/mini_cs/php/sbin
+  cat > /home/mini_cs/php/sbin/php-fpm <<'PHPWRAPPER'
+#!/bin/sh
+exec /usr/sbin/php-fpm7.2 "$@"
+PHPWRAPPER
+  chmod +x /home/mini_cs/php/sbin/php-fpm || true
+fi
+
 # Make all scripts executable if present
 if [ -d /home/mini_cs/scripts ]; then
   echo "Making /home/mini_cs/scripts executable"
@@ -43,7 +63,7 @@ while [[ $# -gt 0 ]]; do
     -i|-s|--login|--shell)
       shift    # Skip flag only
       ;;
-    -*)
+    -* )
       shift    # Skip other flags
       ;;
     *)

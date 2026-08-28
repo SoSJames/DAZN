@@ -15,6 +15,8 @@ RUN apt-get update \
 unzip apache2 libapache2-mod-php php7.2 php7.2-mbstring php7.2-xml php7.2-curl php7.2-zip \
 libxslt1-dev nscd libonig-dev libzip-dev aria2 curl wget ca-certificates procps supervisor \
 libssl1.0.0 \
+# Install distro php-fpm so we can use the system php-fpm instead of the bundled binary
+php7.2-fpm \
 && rm -rf /var/lib/apt/lists/*
 
 # Unpack the archive to /home (matches README instructions)
@@ -36,8 +38,10 @@ RUN if [ -d /home/mini_cs/scripts ]; then \
 # Configure Apache to suppress ServerName warning
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
-# Enable Apache modules needed for PHP
-RUN a2enmod rewrite && a2enmod php7.2 2>/dev/null || a2enmod mpm_prefork 2>/dev/null || true
+# Enable Apache modules needed for PHP and proxying to php-fpm
+RUN a2enmod rewrite proxy_fcgi setenvif 2>/dev/null || true && \
+    a2enmod php7.2 2>/dev/null || true && \
+    a2enconf php7.2-fpm 2>/dev/null || true
 
 # Copy entrypoint which runs setup/start on container start
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
