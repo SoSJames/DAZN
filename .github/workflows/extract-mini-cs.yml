@@ -1,0 +1,49 @@
+name: Extract mini_cs archive
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf mini_cs_extracted
+          mkdir -p mini_cs_extracted
+          unzip -q mini_cs.zip -d mini_cs_extracted
+
+      - name: Show archive inventory
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Extracted size:"
+          du -sh mini_cs_extracted
+          echo
+          echo "File count:"
+          find mini_cs_extracted -type f | wc -l
+          echo
+          echo "Largest files:"
+          find mini_cs_extracted -type f -printf '%s %p\n' | sort -nr | head -50
+
+      - name: Commit extracted files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mini_cs_extracted
+          if git diff --cached --quiet; then
+            echo "No extracted files changed."
+            exit 0
+          fi
+          git commit -m "Extract mini_cs archive"
+          git push
