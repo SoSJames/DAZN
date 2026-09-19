@@ -1,0 +1,1183 @@
+[2023-01-20 03:59:05] Shutting down previous instances.
+sh: 1: kill: Usage: kill [-s sigspec | -signum | -sigspec] [pid | job]... or
+kill -l [exitstatus]
+[2023-01-20 03:59:05] Starting: USOPE1
+[2023-01-20 03:59:05] Killing directory if exists.
+[2023-01-20 03:59:05] Creating new directory.
+[2023-01-20 03:59:05] Grabbing DASH playlist.
+[2023-01-20 03:59:05] https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-027/stream.mpd?p=web
+[2023-01-20 03:59:05] Creating playlist.txt file.
+[2023-01-20 03:59:05] /home/mini_cs/video/USOPE1
+[2023-01-20 03:59:05] /home/mini_cs/video/USOPE1
+[2023-01-20 03:59:05] Start loop handler.
+[2023-01-20 03:59:05] Memory usage: 0.61 MB
+[2023-01-20 03:59:05] DRM Processes: 14
+[2023-01-20 03:59:05] Fetching segments...
+[2023-01-20 03:59:05] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:05] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:05] Couldn't find audio track
+[2023-01-20 03:59:05] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:05] Get keys for ID: USOPE1
+[2023-01-20 03:59:05] Got keys: cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
+[2023-01-20 03:59:05] Got keys!
+[2023-01-20 03:59:05] Downloading 10 audio segments...
+[2023-01-20 03:59:05] Downloading 10 video segments...
+[2023-01-20 03:59:05] Processing segment: 301353679411200
+[2023-01-20 03:59:05] Combining segments...
+[2023-01-20 03:59:05] Processing segment: 301353679756800
+[2023-01-20 03:59:05] Combining segments...
+[2023-01-20 03:59:05] Processing segment: 301353680102400
+[2023-01-20 03:59:05] Combining segments...
+[2023-01-20 03:59:05] Processing segment: 301353680448000
+[2023-01-20 03:59:05] Combining segments...
+[2023-01-20 03:59:05] Processing segment: 301353680793600
+[2023-01-20 03:59:05] Combining segments...
+[2023-01-20 03:59:05] Processing segment: 301353681139200
+[2023-01-20 03:59:05] Combining segments...
+[2023-01-20 03:59:05] Processing segment: 301353681484800
+[2023-01-20 03:59:05] Combining segments...
+[2023-01-20 03:59:05] Processing segment: 301353681830400
+[2023-01-20 03:59:05] Combining segments...
+[2023-01-20 03:59:05] Processing segment: 301353682176000
+[2023-01-20 03:59:05] Combining segments...
+[2023-01-20 03:59:05] Processing segment: 301353682521600
+[2023-01-20 03:59:05] Combining segments...
+[2023-01-20 03:59:05] Finished processing segments.
+[2023-01-20 03:59:05] Skip sleep period.
+[2023-01-20 03:59:05] Current number of segments downloaded: 10
+[2023-01-20 03:59:05] Updating segment text list.
+[2023-01-20 03:59:05] Starting Ffmpeg playlist.
+[2023-01-20 03:59:05] Clearing old segments.
+[2023-01-20 03:59:05] Backup database to file.
+
+[2023-01-20 03:59:08] Start loop handler.
+[2023-01-20 03:59:08] Memory usage: 0.61 MB
+[2023-01-20 03:59:08] DRM Processes: 16
+[2023-01-20 03:59:08] Fetching segments...
+[2023-01-20 03:59:08] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:08] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:08] Couldn't find audio track
+[2023-01-20 03:59:08] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:08] Key already cached.
+[2023-01-20 03:59:08] Downloading 2 audio segments...
+[2023-01-20 03:59:08] Downloading 2 video segments...
+[2023-01-20 03:59:09] Processing segment: 301353682867200
+[2023-01-20 03:59:09] Combining segments...
+[2023-01-20 03:59:09] Processing segment: 301353683212800
+[2023-01-20 03:59:09] Combining segments...
+[2023-01-20 03:59:09] Finished processing segments.
+[2023-01-20 03:59:09] Skip sleep period.
+[2023-01-20 03:59:09] Current number of segments downloaded: 12
+[2023-01-20 03:59:09] Updating segment text list.
+[2023-01-20 03:59:09] Getting stream information.
+[2023-01-20 03:59:09] Clearing old segments.
+[2023-01-20 03:59:09] Backup database to file.
+
+[2023-01-20 03:59:12] Start loop handler.
+[2023-01-20 03:59:12] Memory usage: 0.62 MB
+[2023-01-20 03:59:12] DRM Processes: 16
+[2023-01-20 03:59:12] Fetching segments...
+[2023-01-20 03:59:12] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:12] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:12] Couldn't find audio track
+[2023-01-20 03:59:12] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:12] Key already cached.
+[2023-01-20 03:59:12] Downloading 1 audio segments...
+[2023-01-20 03:59:12] Downloading 1 video segments...
+[2023-01-20 03:59:12] Processing segment: 301353683558400
+[2023-01-20 03:59:12] Combining segments...
+[2023-01-20 03:59:12] Finished processing segments.
+[2023-01-20 03:59:12] Skip sleep period.
+[2023-01-20 03:59:12] Current number of segments downloaded: 13
+[2023-01-20 03:59:12] Updating segment text list.
+[2023-01-20 03:59:12] Clearing old segments.
+[2023-01-20 03:59:12] Backup database to file.
+
+[2023-01-20 03:59:15] Start loop handler.
+[2023-01-20 03:59:15] Memory usage: 0.62 MB
+[2023-01-20 03:59:15] DRM Processes: 14
+[2023-01-20 03:59:15] Fetching segments...
+[2023-01-20 03:59:15] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:15] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:15] Couldn't find audio track
+[2023-01-20 03:59:15] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:15] Key already cached.
+[2023-01-20 03:59:15] Downloading 2 audio segments...
+[2023-01-20 03:59:15] Downloading 2 video segments...
+[2023-01-20 03:59:15] Processing segment: 301353683904000
+[2023-01-20 03:59:15] Combining segments...
+[2023-01-20 03:59:15] Processing segment: 301353684249600
+[2023-01-20 03:59:15] Combining segments...
+[2023-01-20 03:59:15] Finished processing segments.
+[2023-01-20 03:59:15] Skip sleep period.
+[2023-01-20 03:59:15] Current number of segments downloaded: 15
+[2023-01-20 03:59:15] Updating segment text list.
+[2023-01-20 03:59:15] Clearing old segments.
+[2023-01-20 03:59:15] Backup database to file.
+
+[2023-01-20 03:59:18] Start loop handler.
+[2023-01-20 03:59:18] Memory usage: 0.62 MB
+[2023-01-20 03:59:18] DRM Processes: 14
+[2023-01-20 03:59:18] Fetching segments...
+[2023-01-20 03:59:18] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:18] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:18] Couldn't find audio track
+[2023-01-20 03:59:18] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:18] Key already cached.
+[2023-01-20 03:59:18] Downloading 1 audio segments...
+[2023-01-20 03:59:18] Downloading 1 video segments...
+[2023-01-20 03:59:18] Processing segment: 301353684595200
+[2023-01-20 03:59:18] Combining segments...
+[2023-01-20 03:59:18] Finished processing segments.
+[2023-01-20 03:59:18] Skip sleep period.
+[2023-01-20 03:59:18] Current number of segments downloaded: 16
+[2023-01-20 03:59:18] Updating segment text list.
+[2023-01-20 03:59:18] Clearing old segments.
+[2023-01-20 03:59:18] Backup database to file.
+
+[2023-01-20 03:59:21] Start loop handler.
+[2023-01-20 03:59:21] Memory usage: 0.62 MB
+[2023-01-20 03:59:21] DRM Processes: 14
+[2023-01-20 03:59:21] Fetching segments...
+[2023-01-20 03:59:21] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:21] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:21] Couldn't find audio track
+[2023-01-20 03:59:21] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:21] Key already cached.
+[2023-01-20 03:59:21] Downloading 2 audio segments...
+[2023-01-20 03:59:21] Downloading 2 video segments...
+[2023-01-20 03:59:21] Processing segment: 301353684940800
+[2023-01-20 03:59:21] Combining segments...
+[2023-01-20 03:59:21] Processing segment: 301353685286400
+[2023-01-20 03:59:21] Combining segments...
+[2023-01-20 03:59:21] Finished processing segments.
+[2023-01-20 03:59:21] Skip sleep period.
+[2023-01-20 03:59:21] Current number of segments downloaded: 18
+[2023-01-20 03:59:21] Updating segment text list.
+[2023-01-20 03:59:21] Clearing old segments.
+[2023-01-20 03:59:21] Backup database to file.
+
+[2023-01-20 03:59:24] Start loop handler.
+[2023-01-20 03:59:24] Memory usage: 0.62 MB
+[2023-01-20 03:59:24] DRM Processes: 14
+[2023-01-20 03:59:24] Fetching segments...
+[2023-01-20 03:59:24] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:24] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:24] Couldn't find audio track
+[2023-01-20 03:59:24] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:24] Key already cached.
+[2023-01-20 03:59:24] Downloading 2 audio segments...
+[2023-01-20 03:59:25] Downloading 2 video segments...
+[2023-01-20 03:59:25] Processing segment: 301353685632000
+[2023-01-20 03:59:25] Combining segments...
+[2023-01-20 03:59:25] Processing segment: 301353685977600
+[2023-01-20 03:59:25] Combining segments...
+[2023-01-20 03:59:25] Finished processing segments.
+[2023-01-20 03:59:25] Skip sleep period.
+[2023-01-20 03:59:25] Current number of segments downloaded: 20
+[2023-01-20 03:59:25] Updating segment text list.
+[2023-01-20 03:59:25] Clearing old segments.
+[2023-01-20 03:59:25] Backup database to file.
+
+[2023-01-20 03:59:28] Start loop handler.
+[2023-01-20 03:59:28] Memory usage: 0.62 MB
+[2023-01-20 03:59:28] DRM Processes: 14
+[2023-01-20 03:59:28] Fetching segments...
+[2023-01-20 03:59:28] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:28] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:28] Couldn't find audio track
+[2023-01-20 03:59:28] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:28] Key already cached.
+[2023-01-20 03:59:28] Downloading 1 audio segments...
+[2023-01-20 03:59:28] Downloading 1 video segments...
+[2023-01-20 03:59:28] Processing segment: 301353686323200
+[2023-01-20 03:59:28] Combining segments...
+[2023-01-20 03:59:28] Finished processing segments.
+[2023-01-20 03:59:28] Skip sleep period.
+[2023-01-20 03:59:28] Current number of segments downloaded: 21
+[2023-01-20 03:59:28] Updating segment text list.
+[2023-01-20 03:59:28] Clearing old segments.
+[2023-01-20 03:59:28] Backup database to file.
+
+[2023-01-20 03:59:31] Start loop handler.
+[2023-01-20 03:59:31] Memory usage: 0.62 MB
+[2023-01-20 03:59:31] DRM Processes: 14
+[2023-01-20 03:59:31] Fetching segments...
+[2023-01-20 03:59:31] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:31] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:31] Couldn't find audio track
+[2023-01-20 03:59:31] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:31] Key already cached.
+[2023-01-20 03:59:31] Downloading 2 audio segments...
+[2023-01-20 03:59:31] Downloading 2 video segments...
+[2023-01-20 03:59:31] Processing segment: 301353686668800
+[2023-01-20 03:59:31] Combining segments...
+[2023-01-20 03:59:31] Processing segment: 301353687014400
+[2023-01-20 03:59:31] Combining segments...
+[2023-01-20 03:59:31] Finished processing segments.
+[2023-01-20 03:59:31] Skip sleep period.
+[2023-01-20 03:59:31] Current number of segments downloaded: 23
+[2023-01-20 03:59:31] Updating segment text list.
+[2023-01-20 03:59:31] Clearing old segments.
+[2023-01-20 03:59:31] Backup database to file.
+
+[2023-01-20 03:59:34] Start loop handler.
+[2023-01-20 03:59:34] Memory usage: 0.62 MB
+[2023-01-20 03:59:34] DRM Processes: 14
+[2023-01-20 03:59:34] Fetching segments...
+[2023-01-20 03:59:34] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:34] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:34] Couldn't find audio track
+[2023-01-20 03:59:34] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:34] Key already cached.
+[2023-01-20 03:59:34] Downloading 2 audio segments...
+[2023-01-20 03:59:34] Downloading 2 video segments...
+[2023-01-20 03:59:34] Processing segment: 301353687360000
+[2023-01-20 03:59:34] Combining segments...
+[2023-01-20 03:59:34] Processing segment: 301353687705600
+[2023-01-20 03:59:34] Combining segments...
+[2023-01-20 03:59:34] Finished processing segments.
+[2023-01-20 03:59:34] Skip sleep period.
+[2023-01-20 03:59:34] Current number of segments downloaded: 25
+[2023-01-20 03:59:34] Updating segment text list.
+[2023-01-20 03:59:34] Clearing old segments.
+[2023-01-20 03:59:34] Backup database to file.
+
+[2023-01-20 03:59:37] Start loop handler.
+[2023-01-20 03:59:37] Memory usage: 0.62 MB
+[2023-01-20 03:59:37] DRM Processes: 14
+[2023-01-20 03:59:37] Fetching segments...
+[2023-01-20 03:59:37] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:37] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:37] Couldn't find audio track
+[2023-01-20 03:59:37] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:37] Key already cached.
+[2023-01-20 03:59:37] Downloading 2 audio segments...
+[2023-01-20 03:59:37] Downloading 2 video segments...
+[2023-01-20 03:59:37] Processing segment: 301353688051200
+[2023-01-20 03:59:37] Combining segments...
+[2023-01-20 03:59:37] Processing segment: 301353688396800
+[2023-01-20 03:59:37] Combining segments...
+[2023-01-20 03:59:37] Finished processing segments.
+[2023-01-20 03:59:37] Skip sleep period.
+[2023-01-20 03:59:37] Current number of segments downloaded: 27
+[2023-01-20 03:59:37] Updating segment text list.
+[2023-01-20 03:59:37] Clearing old segments.
+[2023-01-20 03:59:37] Backup database to file.
+
+[2023-01-20 03:59:40] Start loop handler.
+[2023-01-20 03:59:40] Memory usage: 0.62 MB
+[2023-01-20 03:59:40] DRM Processes: 14
+[2023-01-20 03:59:40] Fetching segments...
+[2023-01-20 03:59:40] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:40] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:40] Couldn't find audio track
+[2023-01-20 03:59:40] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:40] Key already cached.
+[2023-01-20 03:59:40] Downloading 1 audio segments...
+[2023-01-20 03:59:41] Downloading 1 video segments...
+[2023-01-20 03:59:41] Processing segment: 301353688742400
+[2023-01-20 03:59:41] Combining segments...
+[2023-01-20 03:59:41] Finished processing segments.
+[2023-01-20 03:59:41] Skip sleep period.
+[2023-01-20 03:59:41] Current number of segments downloaded: 28
+[2023-01-20 03:59:41] Updating segment text list.
+[2023-01-20 03:59:41] Clearing old segments.
+[2023-01-20 03:59:41] Backup database to file.
+
+[2023-01-20 03:59:44] Start loop handler.
+[2023-01-20 03:59:44] Memory usage: 0.62 MB
+[2023-01-20 03:59:44] DRM Processes: 14
+[2023-01-20 03:59:44] Fetching segments...
+[2023-01-20 03:59:44] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:44] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:44] Couldn't find audio track
+[2023-01-20 03:59:44] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:44] Key already cached.
+[2023-01-20 03:59:44] Downloading 2 audio segments...
+[2023-01-20 03:59:44] Downloading 2 video segments...
+[2023-01-20 03:59:44] Processing segment: 301353689088000
+[2023-01-20 03:59:44] Combining segments...
+[2023-01-20 03:59:44] Processing segment: 301353689433600
+[2023-01-20 03:59:44] Combining segments...
+[2023-01-20 03:59:44] Finished processing segments.
+[2023-01-20 03:59:44] Skip sleep period.
+[2023-01-20 03:59:44] Current number of segments downloaded: 30
+[2023-01-20 03:59:44] Updating segment text list.
+[2023-01-20 03:59:44] Clearing old segments.
+[2023-01-20 03:59:44] Backup database to file.
+
+[2023-01-20 03:59:47] Start loop handler.
+[2023-01-20 03:59:47] Memory usage: 0.62 MB
+[2023-01-20 03:59:47] DRM Processes: 14
+[2023-01-20 03:59:47] Fetching segments...
+[2023-01-20 03:59:47] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:47] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:47] Couldn't find audio track
+[2023-01-20 03:59:47] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:47] Key already cached.
+[2023-01-20 03:59:47] Downloading 2 audio segments...
+[2023-01-20 03:59:47] Downloading 2 video segments...
+[2023-01-20 03:59:47] Processing segment: 301353689779200
+[2023-01-20 03:59:47] Combining segments...
+[2023-01-20 03:59:47] Processing segment: 301353690124800
+[2023-01-20 03:59:47] Combining segments...
+[2023-01-20 03:59:47] Finished processing segments.
+[2023-01-20 03:59:47] Skip sleep period.
+[2023-01-20 03:59:47] Current number of segments downloaded: 32
+[2023-01-20 03:59:47] Updating segment text list.
+[2023-01-20 03:59:47] Clearing old segments.
+[2023-01-20 03:59:47] Backup database to file.
+
+[2023-01-20 03:59:50] Start loop handler.
+[2023-01-20 03:59:50] Memory usage: 0.62 MB
+[2023-01-20 03:59:50] DRM Processes: 14
+[2023-01-20 03:59:50] Fetching segments...
+[2023-01-20 03:59:50] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:50] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:50] Couldn't find audio track
+[2023-01-20 03:59:50] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:50] Key already cached.
+[2023-01-20 03:59:50] Downloading 1 audio segments...
+[2023-01-20 03:59:50] Downloading 1 video segments...
+[2023-01-20 03:59:50] Processing segment: 301353690470400
+[2023-01-20 03:59:50] Combining segments...
+[2023-01-20 03:59:50] Finished processing segments.
+[2023-01-20 03:59:50] Skip sleep period.
+[2023-01-20 03:59:50] Current number of segments downloaded: 33
+[2023-01-20 03:59:50] Updating segment text list.
+[2023-01-20 03:59:50] Clearing old segments.
+[2023-01-20 03:59:50] Backup database to file.
+
+[2023-01-20 03:59:53] Start loop handler.
+[2023-01-20 03:59:53] Memory usage: 0.62 MB
+[2023-01-20 03:59:53] DRM Processes: 14
+[2023-01-20 03:59:53] Fetching segments...
+[2023-01-20 03:59:53] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:53] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:53] Couldn't find audio track
+[2023-01-20 03:59:53] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:53] Key already cached.
+[2023-01-20 03:59:53] Downloading 1 audio segments...
+[2023-01-20 03:59:53] Downloading 1 video segments...
+[2023-01-20 03:59:53] Processing segment: 301353690816000
+[2023-01-20 03:59:53] Combining segments...
+[2023-01-20 03:59:53] Finished processing segments.
+[2023-01-20 03:59:53] Skip sleep period.
+[2023-01-20 03:59:53] Current number of segments downloaded: 34
+[2023-01-20 03:59:53] Updating segment text list.
+[2023-01-20 03:59:53] Clearing old segments.
+[2023-01-20 03:59:53] Backup database to file.
+
+[2023-01-20 03:59:56] Start loop handler.
+[2023-01-20 03:59:56] Memory usage: 0.62 MB
+[2023-01-20 03:59:56] DRM Processes: 14
+[2023-01-20 03:59:56] Fetching segments...
+[2023-01-20 03:59:56] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 03:59:56] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 03:59:56] Couldn't find audio track
+[2023-01-20 03:59:56] Audio stream set to <strong>ES</strong>
+[2023-01-20 03:59:56] Key already cached.
+[2023-01-20 03:59:56] Downloading 2 audio segments...
+[2023-01-20 03:59:56] Downloading 2 video segments...
+[2023-01-20 03:59:56] Processing segment: 301353691161600
+[2023-01-20 03:59:57] Combining segments...
+[2023-01-20 03:59:57] Processing segment: 301353691507200
+[2023-01-20 03:59:57] Combining segments...
+[2023-01-20 03:59:57] Finished processing segments.
+[2023-01-20 03:59:57] Skip sleep period.
+[2023-01-20 03:59:57] Current number of segments downloaded: 36
+[2023-01-20 03:59:57] Updating segment text list.
+[2023-01-20 03:59:57] Clearing old segments.
+[2023-01-20 03:59:57] Backup database to file.
+
+[2023-01-20 04:00:00] Start loop handler.
+[2023-01-20 04:00:00] Memory usage: 0.62 MB
+[2023-01-20 04:00:00] DRM Processes: 14
+[2023-01-20 04:00:00] Fetching segments...
+[2023-01-20 04:00:00] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:00] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:00] Couldn't find audio track
+[2023-01-20 04:00:00] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:00] Key already cached.
+[2023-01-20 04:00:00] Downloading 3 audio segments...
+[2023-01-20 04:00:00] Downloading 3 video segments...
+[2023-01-20 04:00:00] Processing segment: 301353691852800
+[2023-01-20 04:00:00] Combining segments...
+[2023-01-20 04:00:00] Processing segment: 301353692198400
+[2023-01-20 04:00:00] Combining segments...
+[2023-01-20 04:00:00] Processing segment: 301353692544000
+[2023-01-20 04:00:00] Combining segments...
+[2023-01-20 04:00:00] Finished processing segments.
+[2023-01-20 04:00:00] Skip sleep period.
+[2023-01-20 04:00:00] Current number of segments downloaded: 39
+[2023-01-20 04:00:00] Updating segment text list.
+[2023-01-20 04:00:00] Clearing old segments.
+[2023-01-20 04:00:00] Backup database to file.
+
+[2023-01-20 04:00:03] Start loop handler.
+[2023-01-20 04:00:03] Memory usage: 0.62 MB
+[2023-01-20 04:00:03] DRM Processes: 14
+[2023-01-20 04:00:03] Fetching segments...
+[2023-01-20 04:00:03] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:03] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:03] Couldn't find audio track
+[2023-01-20 04:00:03] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:03] Key already cached.
+[2023-01-20 04:00:03] Downloading 1 audio segments...
+[2023-01-20 04:00:03] Downloading 1 video segments...
+[2023-01-20 04:00:03] Processing segment: 301353692889600
+[2023-01-20 04:00:03] Combining segments...
+[2023-01-20 04:00:03] Finished processing segments.
+[2023-01-20 04:00:03] Skip sleep period.
+[2023-01-20 04:00:03] Current number of segments downloaded: 40
+[2023-01-20 04:00:03] Updating segment text list.
+[2023-01-20 04:00:03] Clearing old segments.
+[2023-01-20 04:00:03] Backup database to file.
+
+[2023-01-20 04:00:06] Start loop handler.
+[2023-01-20 04:00:06] Memory usage: 0.62 MB
+[2023-01-20 04:00:06] DRM Processes: 14
+[2023-01-20 04:00:06] Fetching segments...
+[2023-01-20 04:00:06] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:06] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:06] Couldn't find audio track
+[2023-01-20 04:00:06] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:06] Key already cached.
+[2023-01-20 04:00:06] Downloading 2 audio segments...
+[2023-01-20 04:00:06] Downloading 2 video segments...
+[2023-01-20 04:00:06] Processing segment: 301353693235200
+[2023-01-20 04:00:06] Combining segments...
+[2023-01-20 04:00:06] Processing segment: 301353693580800
+[2023-01-20 04:00:06] Combining segments...
+[2023-01-20 04:00:06] Finished processing segments.
+[2023-01-20 04:00:06] Skip sleep period.
+[2023-01-20 04:00:06] Current number of segments downloaded: 42
+[2023-01-20 04:00:06] Updating segment text list.
+[2023-01-20 04:00:07] Clearing old segments.
+[2023-01-20 04:00:07] Backup database to file.
+
+[2023-01-20 04:00:10] Start loop handler.
+[2023-01-20 04:00:10] Memory usage: 0.62 MB
+[2023-01-20 04:00:10] DRM Processes: 14
+[2023-01-20 04:00:10] Fetching segments...
+[2023-01-20 04:00:10] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:10] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:10] Couldn't find audio track
+[2023-01-20 04:00:10] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:10] Key already cached.
+[2023-01-20 04:00:10] Downloading 1 audio segments...
+[2023-01-20 04:00:10] Downloading 1 video segments...
+[2023-01-20 04:00:10] Processing segment: 301353693926400
+[2023-01-20 04:00:10] Combining segments...
+[2023-01-20 04:00:10] Finished processing segments.
+[2023-01-20 04:00:10] Skip sleep period.
+[2023-01-20 04:00:10] Current number of segments downloaded: 43
+[2023-01-20 04:00:10] Updating segment text list.
+[2023-01-20 04:00:10] Clearing old segments.
+[2023-01-20 04:00:10] Backup database to file.
+
+[2023-01-20 04:00:13] Start loop handler.
+[2023-01-20 04:00:13] Memory usage: 0.62 MB
+[2023-01-20 04:00:13] DRM Processes: 14
+[2023-01-20 04:00:13] Fetching segments...
+[2023-01-20 04:00:13] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:13] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:13] Couldn't find audio track
+[2023-01-20 04:00:13] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:13] Key already cached.
+[2023-01-20 04:00:13] Downloading 2 audio segments...
+[2023-01-20 04:00:13] Downloading 2 video segments...
+[2023-01-20 04:00:13] Processing segment: 301353694272000
+[2023-01-20 04:00:13] Combining segments...
+[2023-01-20 04:00:13] Processing segment: 301353694617600
+[2023-01-20 04:00:13] Combining segments...
+[2023-01-20 04:00:13] Finished processing segments.
+[2023-01-20 04:00:13] Skip sleep period.
+[2023-01-20 04:00:13] Current number of segments downloaded: 45
+[2023-01-20 04:00:13] Updating segment text list.
+[2023-01-20 04:00:13] Clearing old segments.
+[2023-01-20 04:00:13] Backup database to file.
+
+[2023-01-20 04:00:16] Start loop handler.
+[2023-01-20 04:00:16] Memory usage: 0.62 MB
+[2023-01-20 04:00:16] DRM Processes: 14
+[2023-01-20 04:00:16] Fetching segments...
+[2023-01-20 04:00:16] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:16] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:16] Couldn't find audio track
+[2023-01-20 04:00:16] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:16] Key already cached.
+[2023-01-20 04:00:16] Downloading 1 audio segments...
+[2023-01-20 04:00:16] Downloading 1 video segments...
+[2023-01-20 04:00:16] Processing segment: 301353694963200
+[2023-01-20 04:00:16] Combining segments...
+[2023-01-20 04:00:16] Finished processing segments.
+[2023-01-20 04:00:16] Skip sleep period.
+[2023-01-20 04:00:16] Current number of segments downloaded: 46
+[2023-01-20 04:00:16] Updating segment text list.
+[2023-01-20 04:00:16] Clearing old segments.
+[2023-01-20 04:00:16] Backup database to file.
+
+[2023-01-20 04:00:19] Start loop handler.
+[2023-01-20 04:00:19] Memory usage: 0.62 MB
+[2023-01-20 04:00:19] DRM Processes: 14
+[2023-01-20 04:00:19] Fetching segments...
+[2023-01-20 04:00:19] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:19] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:19] Couldn't find audio track
+[2023-01-20 04:00:19] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:19] Key already cached.
+[2023-01-20 04:00:19] Downloading 2 audio segments...
+[2023-01-20 04:00:19] Downloading 2 video segments...
+[2023-01-20 04:00:19] Processing segment: 301353695308800
+[2023-01-20 04:00:19] Combining segments...
+[2023-01-20 04:00:19] Processing segment: 301353695654400
+[2023-01-20 04:00:19] Combining segments...
+[2023-01-20 04:00:19] Finished processing segments.
+[2023-01-20 04:00:19] Skip sleep period.
+[2023-01-20 04:00:19] Current number of segments downloaded: 48
+[2023-01-20 04:00:19] Updating segment text list.
+[2023-01-20 04:00:19] Clearing old segments.
+[2023-01-20 04:00:19] Backup database to file.
+
+[2023-01-20 04:00:22] Start loop handler.
+[2023-01-20 04:00:22] Memory usage: 0.62 MB
+[2023-01-20 04:00:22] DRM Processes: 14
+[2023-01-20 04:00:22] Fetching segments...
+[2023-01-20 04:00:22] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:22] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:22] Couldn't find audio track
+[2023-01-20 04:00:22] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:22] Key already cached.
+[2023-01-20 04:00:22] Downloading 1 audio segments...
+[2023-01-20 04:00:22] Downloading 1 video segments...
+[2023-01-20 04:00:22] Processing segment: 301353696000000
+[2023-01-20 04:00:22] Combining segments...
+[2023-01-20 04:00:22] Finished processing segments.
+[2023-01-20 04:00:22] Skip sleep period.
+[2023-01-20 04:00:22] Current number of segments downloaded: 49
+[2023-01-20 04:00:22] Updating segment text list.
+[2023-01-20 04:00:22] Clearing old segments.
+[2023-01-20 04:00:22] Backup database to file.
+
+[2023-01-20 04:00:25] Start loop handler.
+[2023-01-20 04:00:25] Memory usage: 0.62 MB
+[2023-01-20 04:00:25] DRM Processes: 14
+[2023-01-20 04:00:25] Fetching segments...
+[2023-01-20 04:00:25] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:25] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:25] Couldn't find audio track
+[2023-01-20 04:00:25] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:25] Key already cached.
+[2023-01-20 04:00:25] Downloading 2 audio segments...
+[2023-01-20 04:00:26] Downloading 2 video segments...
+[2023-01-20 04:00:26] Processing segment: 301353696345600
+[2023-01-20 04:00:26] Combining segments...
+[2023-01-20 04:00:26] Processing segment: 301353696691200
+[2023-01-20 04:00:26] Combining segments...
+[2023-01-20 04:00:26] Finished processing segments.
+[2023-01-20 04:00:26] Skip sleep period.
+[2023-01-20 04:00:26] Current number of segments downloaded: 51
+[2023-01-20 04:00:26] Updating segment text list.
+[2023-01-20 04:00:26] Clearing old segments.
+[2023-01-20 04:00:26] Backup database to file.
+
+[2023-01-20 04:00:29] Start loop handler.
+[2023-01-20 04:00:29] Memory usage: 0.62 MB
+[2023-01-20 04:00:29] DRM Processes: 16
+[2023-01-20 04:00:29] Fetching segments...
+[2023-01-20 04:00:29] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:29] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:29] Couldn't find audio track
+[2023-01-20 04:00:29] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:29] Key already cached.
+[2023-01-20 04:00:29] Downloading 2 audio segments...
+[2023-01-20 04:00:29] Downloading 2 video segments...
+[2023-01-20 04:00:29] Processing segment: 301353697036800
+[2023-01-20 04:00:29] Combining segments...
+[2023-01-20 04:00:29] Processing segment: 301353697382400
+[2023-01-20 04:00:29] Combining segments...
+[2023-01-20 04:00:29] Finished processing segments.
+[2023-01-20 04:00:29] Skip sleep period.
+[2023-01-20 04:00:29] Current number of segments downloaded: 53
+[2023-01-20 04:00:29] Updating segment text list.
+[2023-01-20 04:00:29] Clearing old segments.
+[2023-01-20 04:00:29] Backup database to file.
+
+[2023-01-20 04:00:32] Start loop handler.
+[2023-01-20 04:00:32] Memory usage: 0.62 MB
+[2023-01-20 04:00:32] DRM Processes: 14
+[2023-01-20 04:00:32] Fetching segments...
+[2023-01-20 04:00:32] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:32] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:32] Couldn't find audio track
+[2023-01-20 04:00:32] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:32] Key already cached.
+[2023-01-20 04:00:32] Downloading 2 audio segments...
+[2023-01-20 04:00:32] Downloading 2 video segments...
+[2023-01-20 04:00:32] Processing segment: 301353697728000
+[2023-01-20 04:00:32] Combining segments...
+[2023-01-20 04:00:32] Processing segment: 301353698073600
+[2023-01-20 04:00:32] Combining segments...
+[2023-01-20 04:00:32] Finished processing segments.
+[2023-01-20 04:00:32] Skip sleep period.
+[2023-01-20 04:00:32] Current number of segments downloaded: 55
+[2023-01-20 04:00:32] Updating segment text list.
+[2023-01-20 04:00:32] Clearing old segments.
+[2023-01-20 04:00:32] Backup database to file.
+
+[2023-01-20 04:00:35] Start loop handler.
+[2023-01-20 04:00:35] Memory usage: 0.62 MB
+[2023-01-20 04:00:35] DRM Processes: 14
+[2023-01-20 04:00:35] Fetching segments...
+[2023-01-20 04:00:35] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:35] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:35] Couldn't find audio track
+[2023-01-20 04:00:35] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:35] Key already cached.
+[2023-01-20 04:00:35] Downloading 2 audio segments...
+[2023-01-20 04:00:35] Downloading 2 video segments...
+[2023-01-20 04:00:35] Processing segment: 301353698419200
+[2023-01-20 04:00:35] Combining segments...
+[2023-01-20 04:00:35] Processing segment: 301353698764800
+[2023-01-20 04:00:35] Combining segments...
+[2023-01-20 04:00:35] Finished processing segments.
+[2023-01-20 04:00:35] Skip sleep period.
+[2023-01-20 04:00:35] Current number of segments downloaded: 57
+[2023-01-20 04:00:35] Updating segment text list.
+[2023-01-20 04:00:35] Clearing old segments.
+[2023-01-20 04:00:35] Backup database to file.
+
+[2023-01-20 04:00:38] Start loop handler.
+[2023-01-20 04:00:38] Memory usage: 0.62 MB
+[2023-01-20 04:00:38] DRM Processes: 14
+[2023-01-20 04:00:38] Fetching segments...
+[2023-01-20 04:00:38] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:38] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:38] Couldn't find audio track
+[2023-01-20 04:00:38] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:38] Key already cached.
+[2023-01-20 04:00:38] Downloading 2 audio segments...
+[2023-01-20 04:00:38] Downloading 2 video segments...
+[2023-01-20 04:00:38] Processing segment: 301353699110400
+[2023-01-20 04:00:39] Combining segments...
+[2023-01-20 04:00:39] Processing segment: 301353699456000
+[2023-01-20 04:00:39] Combining segments...
+[2023-01-20 04:00:39] Finished processing segments.
+[2023-01-20 04:00:39] Skip sleep period.
+[2023-01-20 04:00:39] Current number of segments downloaded: 59
+[2023-01-20 04:00:39] Updating segment text list.
+[2023-01-20 04:00:39] Clearing old segments.
+[2023-01-20 04:00:39] Backup database to file.
+
+[2023-01-20 04:00:42] Start loop handler.
+[2023-01-20 04:00:42] Memory usage: 0.62 MB
+[2023-01-20 04:00:42] DRM Processes: 14
+[2023-01-20 04:00:42] Fetching segments...
+[2023-01-20 04:00:42] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:42] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:42] Couldn't find audio track
+[2023-01-20 04:00:42] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:42] Key already cached.
+[2023-01-20 04:00:42] Downloading 1 audio segments...
+[2023-01-20 04:00:42] Downloading 1 video segments...
+[2023-01-20 04:00:42] Processing segment: 301353699801600
+[2023-01-20 04:00:42] Combining segments...
+[2023-01-20 04:00:42] Finished processing segments.
+[2023-01-20 04:00:42] Skip sleep period.
+[2023-01-20 04:00:42] Current number of segments downloaded: 60
+[2023-01-20 04:00:42] Updating segment text list.
+[2023-01-20 04:00:42] Clearing old segments.
+[2023-01-20 04:00:42] Backup database to file.
+
+[2023-01-20 04:00:45] Start loop handler.
+[2023-01-20 04:00:45] Memory usage: 0.62 MB
+[2023-01-20 04:00:45] DRM Processes: 14
+[2023-01-20 04:00:45] Fetching segments...
+[2023-01-20 04:00:45] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:45] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:45] Couldn't find audio track
+[2023-01-20 04:00:45] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:45] Key already cached.
+[2023-01-20 04:00:45] Downloading 2 audio segments...
+[2023-01-20 04:00:45] Downloading 2 video segments...
+[2023-01-20 04:00:45] Processing segment: 301353700147200
+[2023-01-20 04:00:45] Combining segments...
+[2023-01-20 04:00:45] Processing segment: 301353700492800
+[2023-01-20 04:00:45] Combining segments...
+[2023-01-20 04:00:45] Finished processing segments.
+[2023-01-20 04:00:45] Skip sleep period.
+[2023-01-20 04:00:45] Current number of segments downloaded: 62
+[2023-01-20 04:00:45] Updating segment text list.
+[2023-01-20 04:00:45] Clearing old segments.
+[2023-01-20 04:00:45] Backup database to file.
+
+[2023-01-20 04:00:48] Start loop handler.
+[2023-01-20 04:00:48] Memory usage: 0.62 MB
+[2023-01-20 04:00:48] DRM Processes: 14
+[2023-01-20 04:00:48] Fetching segments...
+[2023-01-20 04:00:48] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:48] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:48] Couldn't find audio track
+[2023-01-20 04:00:48] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:48] Key already cached.
+[2023-01-20 04:00:48] Downloading 1 audio segments...
+[2023-01-20 04:00:48] Downloading 1 video segments...
+[2023-01-20 04:00:48] Processing segment: 301353700838400
+[2023-01-20 04:00:48] Combining segments...
+[2023-01-20 04:00:48] Finished processing segments.
+[2023-01-20 04:00:48] Skip sleep period.
+[2023-01-20 04:00:48] Current number of segments downloaded: 63
+[2023-01-20 04:00:48] Updating segment text list.
+[2023-01-20 04:00:48] Clearing old segments.
+[2023-01-20 04:00:48] Backup database to file.
+
+[2023-01-20 04:00:51] Start loop handler.
+[2023-01-20 04:00:51] Memory usage: 0.62 MB
+[2023-01-20 04:00:51] DRM Processes: 14
+[2023-01-20 04:00:51] Fetching segments...
+[2023-01-20 04:00:51] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:51] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:51] Couldn't find audio track
+[2023-01-20 04:00:51] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:51] Key already cached.
+[2023-01-20 04:00:51] Downloading 2 audio segments...
+[2023-01-20 04:00:51] Downloading 2 video segments...
+[2023-01-20 04:00:51] Processing segment: 301353701184000
+[2023-01-20 04:00:51] Combining segments...
+[2023-01-20 04:00:51] Processing segment: 301353701529600
+[2023-01-20 04:00:51] Combining segments...
+[2023-01-20 04:00:51] Finished processing segments.
+[2023-01-20 04:00:51] Skip sleep period.
+[2023-01-20 04:00:51] Current number of segments downloaded: 65
+[2023-01-20 04:00:51] Updating segment text list.
+[2023-01-20 04:00:51] Clearing old segments.
+[2023-01-20 04:00:51] Backup database to file.
+
+[2023-01-20 04:00:54] Start loop handler.
+[2023-01-20 04:00:54] Memory usage: 0.62 MB
+[2023-01-20 04:00:54] DRM Processes: 16
+[2023-01-20 04:00:54] Fetching segments...
+[2023-01-20 04:00:54] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:54] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:54] Couldn't find audio track
+[2023-01-20 04:00:54] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:54] Key already cached.
+[2023-01-20 04:00:54] Downloading 2 audio segments...
+[2023-01-20 04:00:54] Downloading 2 video segments...
+[2023-01-20 04:00:54] Processing segment: 301353701875200
+[2023-01-20 04:00:54] Combining segments...
+[2023-01-20 04:00:55] Processing segment: 301353702220800
+[2023-01-20 04:00:55] Combining segments...
+[2023-01-20 04:00:55] Finished processing segments.
+[2023-01-20 04:00:55] Skip sleep period.
+[2023-01-20 04:00:55] Current number of segments downloaded: 67
+[2023-01-20 04:00:55] Updating segment text list.
+[2023-01-20 04:00:55] Clearing old segments.
+[2023-01-20 04:00:55] Backup database to file.
+
+[2023-01-20 04:00:58] Start loop handler.
+[2023-01-20 04:00:58] Memory usage: 0.62 MB
+[2023-01-20 04:00:58] DRM Processes: 16
+[2023-01-20 04:00:58] Fetching segments...
+[2023-01-20 04:00:58] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:00:58] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:00:58] Couldn't find audio track
+[2023-01-20 04:00:58] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:00:58] Key already cached.
+[2023-01-20 04:00:58] Downloading 1 audio segments...
+[2023-01-20 04:00:58] Downloading 1 video segments...
+[2023-01-20 04:00:58] Processing segment: 301353702566400
+[2023-01-20 04:00:58] Combining segments...
+[2023-01-20 04:00:58] Finished processing segments.
+[2023-01-20 04:00:58] Skip sleep period.
+[2023-01-20 04:00:58] Current number of segments downloaded: 68
+[2023-01-20 04:00:58] Updating segment text list.
+[2023-01-20 04:00:58] Clearing old segments.
+[2023-01-20 04:00:58] Backup database to file.
+
+[2023-01-20 04:01:01] Start loop handler.
+[2023-01-20 04:01:01] Memory usage: 0.62 MB
+[2023-01-20 04:01:01] DRM Processes: 14
+[2023-01-20 04:01:01] Fetching segments...
+[2023-01-20 04:01:01] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:01] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:01] Couldn't find audio track
+[2023-01-20 04:01:01] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:01] Key already cached.
+[2023-01-20 04:01:01] Downloading 2 audio segments...
+[2023-01-20 04:01:01] Downloading 2 video segments...
+[2023-01-20 04:01:01] Processing segment: 301353702912000
+[2023-01-20 04:01:01] Combining segments...
+[2023-01-20 04:01:01] Processing segment: 301353703257600
+[2023-01-20 04:01:01] Combining segments...
+[2023-01-20 04:01:01] Finished processing segments.
+[2023-01-20 04:01:01] Skip sleep period.
+[2023-01-20 04:01:01] Current number of segments downloaded: 70
+[2023-01-20 04:01:01] Updating segment text list.
+[2023-01-20 04:01:01] Clearing old segments.
+[2023-01-20 04:01:01] Backup database to file.
+
+[2023-01-20 04:01:04] Start loop handler.
+[2023-01-20 04:01:04] Memory usage: 0.62 MB
+[2023-01-20 04:01:04] DRM Processes: 14
+[2023-01-20 04:01:04] Fetching segments...
+[2023-01-20 04:01:04] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:04] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:04] Couldn't find audio track
+[2023-01-20 04:01:04] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:04] Key already cached.
+[2023-01-20 04:01:04] Downloading 2 audio segments...
+[2023-01-20 04:01:04] Downloading 2 video segments...
+[2023-01-20 04:01:04] Processing segment: 301353703603200
+[2023-01-20 04:01:04] Combining segments...
+[2023-01-20 04:01:04] Processing segment: 301353703948800
+[2023-01-20 04:01:04] Combining segments...
+[2023-01-20 04:01:04] Finished processing segments.
+[2023-01-20 04:01:04] Skip sleep period.
+[2023-01-20 04:01:04] Current number of segments downloaded: 72
+[2023-01-20 04:01:04] Updating segment text list.
+[2023-01-20 04:01:04] Clearing old segments.
+[2023-01-20 04:01:04] Backup database to file.
+
+[2023-01-20 04:01:07] Start loop handler.
+[2023-01-20 04:01:07] Memory usage: 0.62 MB
+[2023-01-20 04:01:07] DRM Processes: 14
+[2023-01-20 04:01:07] Fetching segments...
+[2023-01-20 04:01:07] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:07] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:07] Couldn't find audio track
+[2023-01-20 04:01:07] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:07] Key already cached.
+[2023-01-20 04:01:07] Downloading 1 audio segments...
+[2023-01-20 04:01:07] Downloading 1 video segments...
+[2023-01-20 04:01:07] Processing segment: 301353704294400
+[2023-01-20 04:01:07] Combining segments...
+[2023-01-20 04:01:07] Finished processing segments.
+[2023-01-20 04:01:07] Skip sleep period.
+[2023-01-20 04:01:07] Current number of segments downloaded: 73
+[2023-01-20 04:01:07] Updating segment text list.
+[2023-01-20 04:01:07] Clearing old segments.
+[2023-01-20 04:01:07] Backup database to file.
+
+[2023-01-20 04:01:10] Start loop handler.
+[2023-01-20 04:01:10] Memory usage: 0.62 MB
+[2023-01-20 04:01:10] DRM Processes: 14
+[2023-01-20 04:01:10] Fetching segments...
+[2023-01-20 04:01:10] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:10] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:10] Couldn't find audio track
+[2023-01-20 04:01:10] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:10] Key already cached.
+[2023-01-20 04:01:10] Downloading 2 audio segments...
+[2023-01-20 04:01:11] Downloading 2 video segments...
+[2023-01-20 04:01:11] Processing segment: 301353704640000
+[2023-01-20 04:01:11] Combining segments...
+[2023-01-20 04:01:11] Processing segment: 301353704985600
+[2023-01-20 04:01:11] Combining segments...
+[2023-01-20 04:01:11] Finished processing segments.
+[2023-01-20 04:01:11] Skip sleep period.
+[2023-01-20 04:01:11] Current number of segments downloaded: 75
+[2023-01-20 04:01:11] Updating segment text list.
+[2023-01-20 04:01:11] Clearing old segments.
+[2023-01-20 04:01:11] Backup database to file.
+
+[2023-01-20 04:01:14] Start loop handler.
+[2023-01-20 04:01:14] Memory usage: 0.62 MB
+[2023-01-20 04:01:14] DRM Processes: 14
+[2023-01-20 04:01:14] Fetching segments...
+[2023-01-20 04:01:14] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:14] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:14] Couldn't find audio track
+[2023-01-20 04:01:14] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:14] Key already cached.
+[2023-01-20 04:01:14] Downloading 1 audio segments...
+[2023-01-20 04:01:14] Downloading 1 video segments...
+[2023-01-20 04:01:14] Processing segment: 301353705331200
+[2023-01-20 04:01:14] Combining segments...
+[2023-01-20 04:01:14] Finished processing segments.
+[2023-01-20 04:01:14] Skip sleep period.
+[2023-01-20 04:01:14] Current number of segments downloaded: 76
+[2023-01-20 04:01:14] Updating segment text list.
+[2023-01-20 04:01:14] Clearing old segments.
+[2023-01-20 04:01:14] Backup database to file.
+
+[2023-01-20 04:01:17] Start loop handler.
+[2023-01-20 04:01:17] Memory usage: 0.62 MB
+[2023-01-20 04:01:17] DRM Processes: 14
+[2023-01-20 04:01:17] Fetching segments...
+[2023-01-20 04:01:17] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:17] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:17] Couldn't find audio track
+[2023-01-20 04:01:17] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:17] Key already cached.
+[2023-01-20 04:01:17] Downloading 2 audio segments...
+[2023-01-20 04:01:17] Downloading 2 video segments...
+[2023-01-20 04:01:17] Processing segment: 301353705676800
+[2023-01-20 04:01:17] Combining segments...
+[2023-01-20 04:01:17] Processing segment: 301353706022400
+[2023-01-20 04:01:17] Combining segments...
+[2023-01-20 04:01:17] Finished processing segments.
+[2023-01-20 04:01:17] Skip sleep period.
+[2023-01-20 04:01:17] Current number of segments downloaded: 78
+[2023-01-20 04:01:17] Updating segment text list.
+[2023-01-20 04:01:17] Clearing old segments.
+[2023-01-20 04:01:17] Backup database to file.
+
+[2023-01-20 04:01:20] Start loop handler.
+[2023-01-20 04:01:20] Memory usage: 0.62 MB
+[2023-01-20 04:01:20] DRM Processes: 14
+[2023-01-20 04:01:20] Fetching segments...
+[2023-01-20 04:01:20] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:20] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:20] Couldn't find audio track
+[2023-01-20 04:01:20] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:20] Key already cached.
+[2023-01-20 04:01:20] Downloading 2 audio segments...
+[2023-01-20 04:01:20] Downloading 2 video segments...
+[2023-01-20 04:01:20] Processing segment: 301353706368000
+[2023-01-20 04:01:20] Combining segments...
+[2023-01-20 04:01:20] Processing segment: 301353706713600
+[2023-01-20 04:01:20] Combining segments...
+[2023-01-20 04:01:20] Finished processing segments.
+[2023-01-20 04:01:20] Skip sleep period.
+[2023-01-20 04:01:20] Current number of segments downloaded: 80
+[2023-01-20 04:01:20] Updating segment text list.
+[2023-01-20 04:01:20] Clearing old segments.
+[2023-01-20 04:01:20] Backup database to file.
+
+[2023-01-20 04:01:23] Start loop handler.
+[2023-01-20 04:01:23] Memory usage: 0.62 MB
+[2023-01-20 04:01:23] DRM Processes: 14
+[2023-01-20 04:01:23] Fetching segments...
+[2023-01-20 04:01:23] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:23] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:23] Couldn't find audio track
+[2023-01-20 04:01:23] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:23] Key already cached.
+[2023-01-20 04:01:23] Downloading 2 audio segments...
+[2023-01-20 04:01:23] Downloading 2 video segments...
+[2023-01-20 04:01:24] Processing segment: 301353707059200
+[2023-01-20 04:01:24] Combining segments...
+[2023-01-20 04:01:24] Processing segment: 301353707404800
+[2023-01-20 04:01:24] Combining segments...
+[2023-01-20 04:01:24] Finished processing segments.
+[2023-01-20 04:01:24] Skip sleep period.
+[2023-01-20 04:01:24] Current number of segments downloaded: 82
+[2023-01-20 04:01:24] Updating segment text list.
+[2023-01-20 04:01:24] Clearing old segments.
+[2023-01-20 04:01:24] Backup database to file.
+
+[2023-01-20 04:01:27] Start loop handler.
+[2023-01-20 04:01:27] Memory usage: 0.62 MB
+[2023-01-20 04:01:27] DRM Processes: 14
+[2023-01-20 04:01:27] Fetching segments...
+[2023-01-20 04:01:27] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:27] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:27] Couldn't find audio track
+[2023-01-20 04:01:27] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:27] Key already cached.
+[2023-01-20 04:01:27] Downloading 2 audio segments...
+[2023-01-20 04:01:27] Downloading 2 video segments...
+[2023-01-20 04:01:27] Processing segment: 301353707750400
+[2023-01-20 04:01:27] Combining segments...
+[2023-01-20 04:01:27] Processing segment: 301353708096000
+[2023-01-20 04:01:27] Combining segments...
+[2023-01-20 04:01:27] Finished processing segments.
+[2023-01-20 04:01:27] Skip sleep period.
+[2023-01-20 04:01:27] Current number of segments downloaded: 84
+[2023-01-20 04:01:27] Updating segment text list.
+[2023-01-20 04:01:27] Clearing old segments.
+[2023-01-20 04:01:27] Backup database to file.
+
+[2023-01-20 04:01:30] Start loop handler.
+[2023-01-20 04:01:30] Memory usage: 0.62 MB
+[2023-01-20 04:01:30] DRM Processes: 14
+[2023-01-20 04:01:30] Fetching segments...
+[2023-01-20 04:01:30] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:30] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:30] Couldn't find audio track
+[2023-01-20 04:01:30] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:30] Key already cached.
+[2023-01-20 04:01:30] Downloading 1 audio segments...
+[2023-01-20 04:01:30] Downloading 1 video segments...
+[2023-01-20 04:01:30] Processing segment: 301353708441600
+[2023-01-20 04:01:30] Combining segments...
+[2023-01-20 04:01:30] Finished processing segments.
+[2023-01-20 04:01:30] Skip sleep period.
+[2023-01-20 04:01:30] Current number of segments downloaded: 85
+[2023-01-20 04:01:30] Updating segment text list.
+[2023-01-20 04:01:30] Clearing old segments.
+[2023-01-20 04:01:30] Backup database to file.
+
+[2023-01-20 04:01:33] Start loop handler.
+[2023-01-20 04:01:33] Memory usage: 0.62 MB
+[2023-01-20 04:01:33] DRM Processes: 14
+[2023-01-20 04:01:33] Fetching segments...
+[2023-01-20 04:01:33] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:33] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:33] Couldn't find audio track
+[2023-01-20 04:01:33] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:33] Key already cached.
+[2023-01-20 04:01:33] Downloading 2 audio segments...
+[2023-01-20 04:01:33] Downloading 2 video segments...
+[2023-01-20 04:01:33] Processing segment: 301353708787200
+[2023-01-20 04:01:33] Combining segments...
+[2023-01-20 04:01:33] Processing segment: 301353709132800
+[2023-01-20 04:01:33] Combining segments...
+[2023-01-20 04:01:33] Finished processing segments.
+[2023-01-20 04:01:33] Skip sleep period.
+[2023-01-20 04:01:33] Current number of segments downloaded: 87
+[2023-01-20 04:01:33] Updating segment text list.
+[2023-01-20 04:01:33] Clearing old segments.
+[2023-01-20 04:01:33] Backup database to file.
+
+[2023-01-20 04:01:36] Start loop handler.
+[2023-01-20 04:01:36] Memory usage: 0.62 MB
+[2023-01-20 04:01:36] DRM Processes: 14
+[2023-01-20 04:01:36] Fetching segments...
+[2023-01-20 04:01:36] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:36] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:36] Couldn't find audio track
+[2023-01-20 04:01:36] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:36] Key already cached.
+[2023-01-20 04:01:36] Downloading 1 audio segments...
+[2023-01-20 04:01:36] Downloading 1 video segments...
+[2023-01-20 04:01:36] Processing segment: 301353709478400
+[2023-01-20 04:01:36] Combining segments...
+[2023-01-20 04:01:36] Finished processing segments.
+[2023-01-20 04:01:36] Skip sleep period.
+[2023-01-20 04:01:36] Current number of segments downloaded: 88
+[2023-01-20 04:01:36] Updating segment text list.
+[2023-01-20 04:01:36] Clearing old segments.
+[2023-01-20 04:01:36] Backup database to file.
+
+[2023-01-20 04:01:39] Start loop handler.
+[2023-01-20 04:01:39] Memory usage: 0.62 MB
+[2023-01-20 04:01:39] DRM Processes: 14
+[2023-01-20 04:01:39] Fetching segments...
+[2023-01-20 04:01:39] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:39] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:39] Couldn't find audio track
+[2023-01-20 04:01:39] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:39] Key already cached.
+[2023-01-20 04:01:39] Downloading 2 audio segments...
+[2023-01-20 04:01:39] Downloading 2 video segments...
+[2023-01-20 04:01:40] Processing segment: 301353709824000
+[2023-01-20 04:01:40] Combining segments...
+[2023-01-20 04:01:40] Processing segment: 301353710169600
+[2023-01-20 04:01:40] Combining segments...
+[2023-01-20 04:01:40] Finished processing segments.
+[2023-01-20 04:01:40] Skip sleep period.
+[2023-01-20 04:01:40] Current number of segments downloaded: 90
+[2023-01-20 04:01:40] Updating segment text list.
+[2023-01-20 04:01:40] Clearing old segments.
+[2023-01-20 04:01:40] Backup database to file.
+
+[2023-01-20 04:01:43] Start loop handler.
+[2023-01-20 04:01:43] Memory usage: 0.62 MB
+[2023-01-20 04:01:43] DRM Processes: 14
+[2023-01-20 04:01:43] Fetching segments...
+[2023-01-20 04:01:43] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:43] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:43] Couldn't find audio track
+[2023-01-20 04:01:43] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:43] Key already cached.
+[2023-01-20 04:01:43] Downloading 2 audio segments...
+[2023-01-20 04:01:43] Downloading 2 video segments...
+[2023-01-20 04:01:43] Processing segment: 301353710515200
+[2023-01-20 04:01:43] Combining segments...
+[2023-01-20 04:01:43] Processing segment: 301353710860800
+[2023-01-20 04:01:43] Combining segments...
+[2023-01-20 04:01:43] Finished processing segments.
+[2023-01-20 04:01:43] Skip sleep period.
+[2023-01-20 04:01:43] Current number of segments downloaded: 92
+[2023-01-20 04:01:43] Updating segment text list.
+[2023-01-20 04:01:43] Clearing old segments.
+[2023-01-20 04:01:43] Backup database to file.
+
+[2023-01-20 04:01:46] Start loop handler.
+[2023-01-20 04:01:46] Memory usage: 0.62 MB
+[2023-01-20 04:01:46] DRM Processes: 14
+[2023-01-20 04:01:46] Fetching segments...
+[2023-01-20 04:01:46] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:46] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:46] Couldn't find audio track
+[2023-01-20 04:01:46] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:46] Key already cached.
+[2023-01-20 04:01:46] Downloading 1 audio segments...
+[2023-01-20 04:01:46] Downloading 1 video segments...
+[2023-01-20 04:01:46] Processing segment: 301353711206400
+[2023-01-20 04:01:46] Combining segments...
+[2023-01-20 04:01:46] Finished processing segments.
+[2023-01-20 04:01:46] Skip sleep period.
+[2023-01-20 04:01:46] Current number of segments downloaded: 93
+[2023-01-20 04:01:46] Updating segment text list.
+[2023-01-20 04:01:46] Clearing old segments.
+[2023-01-20 04:01:46] Backup database to file.
+
+[2023-01-20 04:01:49] Start loop handler.
+[2023-01-20 04:01:49] Memory usage: 0.62 MB
+[2023-01-20 04:01:49] DRM Processes: 14
+[2023-01-20 04:01:49] Fetching segments...
+[2023-01-20 04:01:49] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:49] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:49] Couldn't find audio track
+[2023-01-20 04:01:49] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:49] Key already cached.
+[2023-01-20 04:01:49] Downloading 2 audio segments...
+[2023-01-20 04:01:49] Downloading 2 video segments...
+[2023-01-20 04:01:49] Processing segment: 301353711552000
+[2023-01-20 04:01:49] Combining segments...
+[2023-01-20 04:01:49] Processing segment: 301353711897600
+[2023-01-20 04:01:49] Combining segments...
+[2023-01-20 04:01:49] Finished processing segments.
+[2023-01-20 04:01:49] Skip sleep period.
+[2023-01-20 04:01:49] Current number of segments downloaded: 95
+[2023-01-20 04:01:49] Updating segment text list.
+[2023-01-20 04:01:49] Clearing old segments.
+[2023-01-20 04:01:49] Backup database to file.
+
+[2023-01-20 04:01:52] Start loop handler.
+[2023-01-20 04:01:52] Memory usage: 0.62 MB
+[2023-01-20 04:01:52] DRM Processes: 14
+[2023-01-20 04:01:52] Fetching segments...
+[2023-01-20 04:01:52] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:52] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:52] Couldn't find audio track
+[2023-01-20 04:01:52] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:52] Key already cached.
+[2023-01-20 04:01:52] Downloading 2 audio segments...
+[2023-01-20 04:01:52] Downloading 2 video segments...
+[2023-01-20 04:01:52] Processing segment: 301353712243200
+[2023-01-20 04:01:52] Combining segments...
+[2023-01-20 04:01:52] Processing segment: 301353712588800
+[2023-01-20 04:01:52] Combining segments...
+[2023-01-20 04:01:53] Finished processing segments.
+[2023-01-20 04:01:53] Skip sleep period.
+[2023-01-20 04:01:53] Current number of segments downloaded: 97
+[2023-01-20 04:01:53] Updating segment text list.
+[2023-01-20 04:01:53] Clearing old segments.
+[2023-01-20 04:01:53] Backup database to file.
+
+[2023-01-20 04:01:56] Start loop handler.
+[2023-01-20 04:01:56] Memory usage: 0.62 MB
+[2023-01-20 04:01:56] DRM Processes: 14
+[2023-01-20 04:01:56] Fetching segments...
+[2023-01-20 04:01:56] PSSH: AAAARXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACUIARIQz7XitzvvTzyHjyWrhqdFHyIPZGF6bi1saW5lYXItMDI3
+[2023-01-20 04:01:56] Trying to find audio track for language <strong>NL</strong>...
+[2023-01-20 04:01:56] Couldn't find audio track
+[2023-01-20 04:01:56] Audio stream set to <strong>ES</strong>
+[2023-01-20 04:01:56] Key already cached.
+[2023-01-20 04:01:56] Downloading 1 audio segments...
+[2023-01-20 04:01:56] Downloading 1 video segments...
+[2023-01-20 04:01:56] Processing segment: 301353712934400
+[2023-01-20 04:01:56] Combining segments...
+[2023-01-20 04:01:56] Finished processing segments.
+[2023-01-20 04:01:56] Skip sleep period.
+[2023-01-20 04:01:56] Current number of segments downloaded: 98
+[2023-01-20 04:01:56] Updating segment text list.
+[2023-01-20 04:01:56] Clearing old segments.
+[2023-01-20 04:01:56] Backup database to file.
+

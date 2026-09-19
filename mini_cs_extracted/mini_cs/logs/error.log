@@ -1,0 +1,80 @@
+2022/07/02 13:30:41 [crit] 20047#20047: *2 connect() to unix:/home/mini_cs/php/daemon.sock failed (2: No such file or directory) while connecting to upstream, client: 82.1.77.67, server: , request: "GET /dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/home/mini_cs/php/daemon.sock:", host: "136.243.55.251:18001"
+2022/07/02 13:30:41 [error] 20047#20047: *4 open() "/home/mini_cs/wwwdir/favicon.ico" failed (2: No such file or directory), client: 82.1.77.67, server: , request: "GET /favicon.ico HTTP/1.1", host: "136.243.55.251:18001", referrer: "http://136.243.55.251:18001/dashboard.php"
+2022/07/02 13:34:27 [emerg] 21933#21933: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:34:27 [emerg] 21933#21933: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:34:27 [emerg] 21933#21933: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:34:27 [emerg] 21933#21933: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:34:27 [emerg] 21933#21933: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:34:27 [emerg] 21933#21933: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:34:27 [emerg] 21933#21933: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:34:27 [emerg] 21933#21933: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:34:27 [emerg] 21933#21933: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:34:27 [emerg] 21933#21933: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:34:27 [emerg] 21933#21933: still could not bind()
+2022/07/02 13:34:40 [crit] 20047#20047: *5 connect() to unix:/home/mini_cs/php/daemon.sock failed (2: No such file or directory) while connecting to upstream, client: 82.1.77.67, server: , request: "GET /dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/home/mini_cs/php/daemon.sock:", host: "136.243.55.251:18001"
+2022/07/02 13:34:46 [crit] 20047#20047: *8 connect() to unix:/home/mini_cs/php/daemon.sock failed (2: No such file or directory) while connecting to upstream, client: 82.1.77.67, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/mini_cs/php/daemon.sock:", host: "136.243.55.251:18001"
+2022/07/02 13:36:17 [crit] 20047#20047: *11 connect() to unix:/home/mini_cs/php/daemon.sock failed (2: No such file or directory) while connecting to upstream, client: 82.1.77.67, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/mini_cs/php/daemon.sock:", host: "136.243.55.251:18001"
+2022/07/02 13:36:25 [notice] 21942#21942: signal process started
+2022/07/02 13:36:28 [crit] 20047#20047: *13 connect() to unix:/home/mini_cs/php/daemon.sock failed (2: No such file or directory) while connecting to upstream, client: 82.1.77.67, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/mini_cs/php/daemon.sock:", host: "136.243.55.251:18001"
+2022/07/02 13:36:54 [emerg] 22242#22242: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:36:54 [emerg] 22242#22242: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:36:54 [emerg] 22242#22242: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:36:54 [emerg] 22242#22242: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:36:54 [emerg] 22242#22242: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:36:54 [emerg] 22242#22242: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:36:54 [emerg] 22242#22242: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:36:54 [emerg] 22242#22242: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:36:54 [emerg] 22242#22242: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:36:54 [emerg] 22242#22242: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:36:54 [emerg] 22242#22242: still could not bind()
+2022/07/02 13:37:00 [crit] 21947#21947: *15 connect() to unix:/home/mini_cs/php/daemon.sock failed (2: No such file or directory) while connecting to upstream, client: 82.1.77.67, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/mini_cs/php/daemon.sock:", host: "136.243.55.251:18001"
+2022/07/02 13:38:04 [emerg] 22492#22492: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:38:04 [emerg] 22492#22492: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:38:04 [emerg] 22492#22492: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:38:04 [emerg] 22492#22492: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:38:04 [emerg] 22492#22492: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:38:04 [emerg] 22492#22492: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:38:04 [emerg] 22492#22492: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:38:04 [emerg] 22492#22492: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:38:04 [emerg] 22492#22492: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:38:04 [emerg] 22492#22492: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:38:04 [emerg] 22492#22492: still could not bind()
+2022/07/02 13:38:37 [error] 21947#21947: *37 open() "/home/mini_cs/hls/DAZN_CHANNEL/hls/playlist.m3u8" failed (2: No such file or directory), client: 82.1.77.67, server: , request: "GET /DAZN_CHANNEL/hls/playlist.m3u8 HTTP/1.1", host: "136.243.55.251:18000", referrer: "http://136.243.55.251:18001/"
+2022/07/02 13:38:37 [error] 21947#21947: *38 open() "/home/mini_cs/hls/favicon.ico" failed (2: No such file or directory), client: 82.1.77.67, server: , request: "GET /favicon.ico HTTP/1.1", host: "136.243.55.251:18000", referrer: "http://136.243.55.251:18000/DAZN_CHANNEL/hls/playlist.m3u8"
+2022/07/02 13:38:43 [error] 21947#21947: *37 open() "/home/mini_cs/hls/EuroSport_1/hls/playlist.m3u8" failed (2: No such file or directory), client: 82.1.77.67, server: , request: "GET /EuroSport_1/hls/playlist.m3u8 HTTP/1.1", host: "136.243.55.251:18000", referrer: "http://136.243.55.251:18001/"
+2022/07/02 13:42:58 [emerg] 24921#24921: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:42:58 [emerg] 24921#24921: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:42:58 [emerg] 24921#24921: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:42:58 [emerg] 24921#24921: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:42:58 [emerg] 24921#24921: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:42:58 [emerg] 24921#24921: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:42:58 [emerg] 24921#24921: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:42:58 [emerg] 24921#24921: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:42:58 [emerg] 24921#24921: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 13:42:58 [emerg] 24921#24921: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 13:42:58 [emerg] 24921#24921: still could not bind()
+2022/07/02 13:53:39 [error] 21947#21947: *67 open() "/home/mini_cs/hls/DAZN_CHANNEL/hls/playlist.m3u8" failed (2: No such file or directory), client: 82.1.77.67, server: , request: "GET /DAZN_CHANNEL/hls/playlist.m3u8 HTTP/1.1", host: "136.243.55.251:18000", referrer: "http://136.243.55.251:18001/"
+2022/07/02 13:53:41 [error] 21947#21947: *67 open() "/home/mini_cs/hls/EuroSport_1/hls/playlist.m3u8" failed (2: No such file or directory), client: 82.1.77.67, server: , request: "GET /EuroSport_1/hls/playlist.m3u8 HTTP/1.1", host: "136.243.55.251:18000", referrer: "http://136.243.55.251:18001/"
+2022/07/02 13:53:43 [crit] 21947#21947: *68 connect() to unix:/home/mini_cs/php/daemon.sock failed (2: No such file or directory) while connecting to upstream, client: 82.1.77.67, server: , request: "GET /api.php?id=EuroSport_1&type=dazn&action=STOP HTTP/1.1", upstream: "fastcgi://unix:/home/mini_cs/php/daemon.sock:", host: "136.243.55.251:18001", referrer: "http://136.243.55.251:18001/dashboard.php"
+2022/07/02 13:53:44 [crit] 21947#21947: *68 connect() to unix:/home/mini_cs/php/daemon.sock failed (2: No such file or directory) while connecting to upstream, client: 82.1.77.67, server: , request: "GET /api.php?id=DAZN_CHANNEL&type=dazn&action=STOP HTTP/1.1", upstream: "fastcgi://unix:/home/mini_cs/php/daemon.sock:", host: "136.243.55.251:18001", referrer: "http://136.243.55.251:18001/dashboard.php"
+2022/07/02 14:21:57 [crit] 21947#21947: *72 connect() to unix:/home/mini_cs/php/daemon.sock failed (2: No such file or directory) while connecting to upstream, client: 102.78.179.215, server: , request: "GET /dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/home/mini_cs/php/daemon.sock:", host: "136.243.55.251:18001"
+2022/07/02 14:21:58 [error] 21947#21947: *72 open() "/home/mini_cs/wwwdir/favicon.ico" failed (2: No such file or directory), client: 102.78.179.215, server: , request: "GET /favicon.ico HTTP/1.1", host: "136.243.55.251:18001", referrer: "http://136.243.55.251:18001/dashboard.php"
+2022/07/02 14:22:00 [crit] 21947#21947: *72 connect() to unix:/home/mini_cs/php/daemon.sock failed (2: No such file or directory) while connecting to upstream, client: 102.78.179.215, server: , request: "GET /dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/home/mini_cs/php/daemon.sock:", host: "136.243.55.251:18001"
+2022/07/02 14:24:56 [emerg] 26879#26879: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 14:24:56 [emerg] 26879#26879: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 14:24:56 [emerg] 26879#26879: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 14:24:56 [emerg] 26879#26879: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 14:24:56 [emerg] 26879#26879: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 14:24:56 [emerg] 26879#26879: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 14:24:56 [emerg] 26879#26879: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 14:24:56 [emerg] 26879#26879: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 14:24:56 [emerg] 26879#26879: bind() to 0.0.0.0:18000 failed (98: Address already in use)
+2022/07/02 14:24:56 [emerg] 26879#26879: bind() to 0.0.0.0:18001 failed (98: Address already in use)
+2022/07/02 14:24:56 [emerg] 26879#26879: still could not bind()
+2022/07/02 14:25:25 [crit] 21947#21947: *75 connect() to unix:/home/mini_cs/php/daemon.sock failed (2: No such file or directory) while connecting to upstream, client: 102.78.179.215, server: , request: "GET /dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/home/mini_cs/php/daemon.sock:", host: "136.243.55.251:18001"
+2022/07/02 14:25:26 [crit] 21947#21947: *75 connect() to unix:/home/mini_cs/php/daemon.sock failed (2: No such file or directory) while connecting to upstream, client: 102.78.179.215, server: , request: "GET /dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/home/mini_cs/php/daemon.sock:", host: "136.243.55.251:18001"
+2022/07/02 14:31:42 [error] 27101#27101: *57 open() "/home/mini_cs/wwwdir/favicon.ico" failed (2: No such file or directory), client: 82.1.77.67, server: , request: "GET /favicon.ico HTTP/1.1", host: "136.243.55.251:18001", referrer: "http://136.243.55.251:18001/dashboard.php"
+2022/07/02 14:38:54 [error] 27101#27101: *70 open() "/home/mini_cs/wwwdir/favicon.ico" failed (2: No such file or directory), client: 104.162.142.209, server: , request: "GET /favicon.ico HTTP/1.1", host: "136.243.55.251:18001", referrer: "http://136.243.55.251:18001/dashboard.php"
+2023/01/20 03:43:18 [error] 804#804: *6 open() "/home/mini_cs/wwwdir/favicon.ico" failed (2: No such file or directory), client: 91.245.253.134, server: , request: "GET /favicon.ico HTTP/1.1", host: "134.122.95.218:18001", referrer: "http://134.122.95.218:18001/dashboard.php"
+2023/01/20 03:47:37 [error] 804#804: *52 open() "/home/mini_cs/hls/NBATV/hls/playlist.m3u8" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /NBATV/hls/playlist.m3u8 HTTP/1.1", host: "127.0.0.1:18000"
+2023/01/20 03:59:09 [error] 5768#5768: *45 open() "/home/mini_cs/hls/USOPE1/hls/playlist.m3u8" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /USOPE1/hls/playlist.m3u8 HTTP/1.1", host: "127.0.0.1:18000"

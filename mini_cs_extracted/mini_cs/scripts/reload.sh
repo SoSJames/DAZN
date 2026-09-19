@@ -1,0 +1,1 @@
+/home/mini_cs/nginx/sbin/nginx -s reload
